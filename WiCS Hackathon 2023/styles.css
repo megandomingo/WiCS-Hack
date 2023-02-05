@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;300;600;800&display=swap');
+
+h1 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+}
+
+/* Style the tab */
+  .tab {
+    overflow: hidden;
+  }
+  .imageCenter{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid rgb(148, 99, 123)
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+.addBorder{
+  border-radius: 25px;
+  padding: 20px;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  margin:auto;
+  font-family: 'Sora', sans-serif;
+}
+
+  .tab button {
+    border-radius: 25px;
+    border-color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    width: 100px;
+    height: 60px;
+    font-family: monospace;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  .title {
+    text-align: center;
+  }
+  
+  .images {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 0px 0px 0px 0px;
+    border: 10px solid rgb(148, 99, 123)
+  }
+
+  .profile {
+    background-color: rgb(248, 235, 248)
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .row button {
+    height: 50px;
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Sora;
+    font-weight: 600;
+    font-size: larger;
+    background-color: rgb(209, 169, 188);
+    border: 5px solid rgb(239, 212, 225)
+  }
+
+  .timeline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+  }
